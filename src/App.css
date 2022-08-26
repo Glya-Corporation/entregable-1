@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#root{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+.App{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart{
+    padding: .5rem;
+    background-color: #ffffff;
+    width: 50%;
+    min-height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5rem;
+    box-shadow: 0 0 20px #000000;
+}
+.quotes{
+    font-size: 80px;
+}
+.phrases{
+    grid-column: 2 / 5;
+}
+.author{
+    grid-column: 4 / 5;
+}
+.relleno{
+    height: 70px;
+}
+.btn-changes{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: transparent;
+    position: relative;
+    left: -120%;
+    top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow{
+    font-size: 60px;
+    color: #ffffff;
+}
