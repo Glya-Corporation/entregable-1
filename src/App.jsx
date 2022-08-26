@@ -9,15 +9,9 @@ function App() {
   const [count, setCount] = useState(0)
 
   const colors = [
-    "#f0f8ff",
     "#faebd7",
-    "#00ffff",
     "#7fffd4",
-    "#f0ffff",
     "#f5f5dc",
-    "#ffe4c4",
-    "#000000",
-    "#ffebcd",
     "#0000ff",
     "#8a2be2",
     "#a52a2a",
@@ -27,7 +21,6 @@ function App() {
     "#d2691e",
     "#ff7f50",
     "#6495ed",
-    "#fff8dc",
     "#dc143c",
     "#00ffff",
     "#00008b",
@@ -55,7 +48,6 @@ function App() {
     "#696969",
     "#1e90ff",
     "#b22222",
-    "#fffaf0",
     "#228b22",
     "#ff00ff",
     "#dcdcdc"
@@ -74,7 +66,7 @@ function App() {
 
   return (
     <div className="App">
-      <QuoteBox info={phrases} index={index} functionChange={changePhrases} colors={backgroud} />
+      <QuoteBox info={phrases} index={index} colors={backgroud} />
       <Click functionChange={changePhrases} colors={backgroud}/>
     </div>
   )

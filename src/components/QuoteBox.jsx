@@ -9,7 +9,7 @@ const QuoteBox = ({ info, index, colors }) => {
             <div className="quote"><span class="material-symbols-outlined quotes">format_quote</span></div>
             <div className="phrases"><span>{info[index].quote}</span></div>
             <div className="author">{info[index].author}</div>
-            <div className="relleno"></div>
+            <div className="filling"></div>
         </div>
     );
 };
